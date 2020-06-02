@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65e0502f7d184434902577963a65f117 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_65e0502f7d184434902577963a65f117" ></div>
+        
+</body>
+<script>    
+    
+            var map_65e0502f7d184434902577963a65f117 = L.map(
+                "map_65e0502f7d184434902577963a65f117",
+                {
+                    center: [-37.8136, 144.9631],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c1c0460098e4b528eee79be640e1714 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+            var circle_marker_0e20670a9d714641b62573f92c8fcfd8 = L.circleMarker(
+                [-36.845815, 147.260435],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_f4f84a8b4824421eae3d48945b7243ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d2860e2f3f5483498c463ba93e15c5f = $(`<div id="html_9d2860e2f3f5483498c463ba93e15c5f" style="width: 100.0%; height: 100.0%;">City:(falls creek)<br>Total Number of Crashes:2</div>`)[0];
+            popup_f4f84a8b4824421eae3d48945b7243ff.setContent(html_9d2860e2f3f5483498c463ba93e15c5f);
+        
+
+        circle_marker_0e20670a9d714641b62573f92c8fcfd8.bindPopup(popup_f4f84a8b4824421eae3d48945b7243ff)
+        ;
+
+        
+    
+    
+            var circle_marker_7571aa4f4d21478ea2d87f82a95acc0e = L.circleMarker(
+                [-37.523555, 145.86508],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_a9101a4717c04c2a90a2b32b5313acd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b3e5520de743fd893cf962e3078ace = $(`<div id="html_43b3e5520de743fd893cf962e3078ace" style="width: 100.0%; height: 100.0%;">City:(lake mountain)<br>Total Number of Crashes:2</div>`)[0];
+            popup_a9101a4717c04c2a90a2b32b5313acd9.setContent(html_43b3e5520de743fd893cf962e3078ace);
+        
+
+        circle_marker_7571aa4f4d21478ea2d87f82a95acc0e.bindPopup(popup_a9101a4717c04c2a90a2b32b5313acd9)
+        ;
+
+        
+    
+    
+            var circle_marker_dd4ddd8587d44a51ad4d926b1f411e50 = L.circleMarker(
+                [-37.84498, 146.2517],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.02, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_8d53a8dbba3847b6bac93b78062bade9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333e290abca5447babc70e210d3b0deb = $(`<div id="html_333e290abca5447babc70e210d3b0deb" style="width: 100.0%; height: 100.0%;">City:(mount baw baw)<br>Total Number of Crashes:1</div>`)[0];
+            popup_8d53a8dbba3847b6bac93b78062bade9.setContent(html_333e290abca5447babc70e210d3b0deb);
+        
+
+        circle_marker_dd4ddd8587d44a51ad4d926b1f411e50.bindPopup(popup_8d53a8dbba3847b6bac93b78062bade9)
+        ;
+
+        
+    
+    
+            var circle_marker_6d9b15382dd54aae8fac0dd6ebf6c3c0 = L.circleMarker(
+                [-37.14565, 146.44986],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.02, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_2b143c4b2d934960a0992ba2cd74160c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2981dc1b5b4a49f3b7bd573f349534db = $(`<div id="html_2981dc1b5b4a49f3b7bd573f349534db" style="width: 100.0%; height: 100.0%;">City:(mount buller)<br>Total Number of Crashes:1</div>`)[0];
+            popup_2b143c4b2d934960a0992ba2cd74160c.setContent(html_2981dc1b5b4a49f3b7bd573f349534db);
+        
+
+        circle_marker_6d9b15382dd54aae8fac0dd6ebf6c3c0.bindPopup(popup_2b143c4b2d934960a0992ba2cd74160c)
+        ;
+
+        
+    
+    
+            var circle_marker_653f7005698d467abb5472593c71b488 = L.circleMarker(
+                [-37.00163, 147.10055],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.02, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_b185c3c716974a3b9c7593dfe6518ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2b3572d14f044028c6283fae364e128 = $(`<div id="html_e2b3572d14f044028c6283fae364e128" style="width: 100.0%; height: 100.0%;">City:(mount hotham)<br>Total Number of Crashes:1</div>`)[0];
+            popup_b185c3c716974a3b9c7593dfe6518ef8.setContent(html_e2b3572d14f044028c6283fae364e128);
+        
+
+        circle_marker_653f7005698d467abb5472593c71b488.bindPopup(popup_b185c3c716974a3b9c7593dfe6518ef8)
+        ;
+
+        
+    
+    
+            var circle_marker_b4dbe5eafead4388be4e92ad7d987b59 = L.circleMarker(
+                [-36.6795872, 146.91269880000002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_972174fbc4a94e28ae83ccb22aedc389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae2f83ab08204e7eb53bccc8b455dcc7 = $(`<div id="html_ae2f83ab08204e7eb53bccc8b455dcc7" style="width: 100.0%; height: 100.0%;">City:Alpine<br>Total Number of Crashes:25</div>`)[0];
+            popup_972174fbc4a94e28ae83ccb22aedc389.setContent(html_ae2f83ab08204e7eb53bccc8b455dcc7);
+        
+
+        circle_marker_b4dbe5eafead4388be4e92ad7d987b59.bindPopup(popup_972174fbc4a94e28ae83ccb22aedc389)
+        ;
+
+        
+    
+    
+            var circle_marker_aac0efbeabec43429e581a906f035c01 = L.circleMarker(
+                [-37.39502066666667, 142.8646493333333],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_138f565de0834aef8519648f4653c265 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1563df97882345aab91779d69d3f418a = $(`<div id="html_1563df97882345aab91779d69d3f418a" style="width: 100.0%; height: 100.0%;">City:Ararat<br>Total Number of Crashes:15</div>`)[0];
+            popup_138f565de0834aef8519648f4653c265.setContent(html_1563df97882345aab91779d69d3f418a);
+        
+
+        circle_marker_aac0efbeabec43429e581a906f035c01.bindPopup(popup_138f565de0834aef8519648f4653c265)
+        ;
+
+        
+    
+    
+            var circle_marker_df66b6696ead4988925b17a7d0b78846 = L.circleMarker(
+                [-37.55992393939393, 143.83925287878793],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.64, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_04b1c910fe31420789a38771f751abe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_820bdaef6fbb4c87b00942d5e611934b = $(`<div id="html_820bdaef6fbb4c87b00942d5e611934b" style="width: 100.0%; height: 100.0%;">City:Ballarat<br>Total Number of Crashes:132</div>`)[0];
+            popup_04b1c910fe31420789a38771f751abe7.setContent(html_820bdaef6fbb4c87b00942d5e611934b);
+        
+
+        circle_marker_df66b6696ead4988925b17a7d0b78846.bindPopup(popup_04b1c910fe31420789a38771f751abe7)
+        ;
+
+        
+    
+    
+            var circle_marker_4ceaf9ee84774aa798e2ff6218c3afd4 = L.circleMarker(
+                [-37.7353111827957, 145.07327279569893],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.86, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_005b0622efbd4f78a327a2cc863bea6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7eb3fbfd2f8474fa036f16579983ffb = $(`<div id="html_d7eb3fbfd2f8474fa036f16579983ffb" style="width: 100.0%; height: 100.0%;">City:Banyule<br>Total Number of Crashes:93</div>`)[0];
+            popup_005b0622efbd4f78a327a2cc863bea6c.setContent(html_d7eb3fbfd2f8474fa036f16579983ffb);
+        
+
+        circle_marker_4ceaf9ee84774aa798e2ff6218c3afd4.bindPopup(popup_005b0622efbd4f78a327a2cc863bea6c)
+        ;
+
+        
+    
+    
+            var circle_marker_b60405b75cd54cdf8a683420b3cbd6a1 = L.circleMarker(
+                [-38.540165161290325, 145.51849645161292],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.62, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_3096f47cb6994202a86976dfa177b1ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d662240f017548cda80947f83912b623 = $(`<div id="html_d662240f017548cda80947f83912b623" style="width: 100.0%; height: 100.0%;">City:Bass coast<br>Total Number of Crashes:31</div>`)[0];
+            popup_3096f47cb6994202a86976dfa177b1ca.setContent(html_d662240f017548cda80947f83912b623);
+        
+
+        circle_marker_b60405b75cd54cdf8a683420b3cbd6a1.bindPopup(popup_3096f47cb6994202a86976dfa177b1ca)
+        ;
+
+        
+    
+    
+            var circle_marker_78d4f6ca00684c9883715e55186d684b = L.circleMarker(
+                [-38.087456444444435, 146.03772544444448],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_2f86e65d8b264d19a6db86ebb797e12f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51d3cb608ebb44ce8be82a5e85d93bde = $(`<div id="html_51d3cb608ebb44ce8be82a5e85d93bde" style="width: 100.0%; height: 100.0%;">City:Baw baw<br>Total Number of Crashes:90</div>`)[0];
+            popup_2f86e65d8b264d19a6db86ebb797e12f.setContent(html_51d3cb608ebb44ce8be82a5e85d93bde);
+        
+
+        circle_marker_78d4f6ca00684c9883715e55186d684b.bindPopup(popup_2f86e65d8b264d19a6db86ebb797e12f)
+        ;
+
+        
+    
+    
+            var circle_marker_535d844884ae49c798055964ef1b923c = L.circleMarker(
+                [-37.93144197530866, 145.01188728395056],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.62, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_44bf3765e41f4acb8c8bc79a0e583b01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12a0d165ce140e2b6ee50a7aaaa0ad2 = $(`<div id="html_a12a0d165ce140e2b6ee50a7aaaa0ad2" style="width: 100.0%; height: 100.0%;">City:Bayside<br>Total Number of Crashes:81</div>`)[0];
+            popup_44bf3765e41f4acb8c8bc79a0e583b01.setContent(html_a12a0d165ce140e2b6ee50a7aaaa0ad2);
+        
+
+        circle_marker_535d844884ae49c798055964ef1b923c.bindPopup(popup_44bf3765e41f4acb8c8bc79a0e583b01)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6d1afaf4274fd9bf1d13725f97ef50 = L.circleMarker(
+                [-36.587771249999996, 145.995335],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.48, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_c56c6b444eb64e428867cfd9bd8b278c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eabbedede234537bbd26c65f7113656 = $(`<div id="html_9eabbedede234537bbd26c65f7113656" style="width: 100.0%; height: 100.0%;">City:Benalla<br>Total Number of Crashes:24</div>`)[0];
+            popup_c56c6b444eb64e428867cfd9bd8b278c.setContent(html_9eabbedede234537bbd26c65f7113656);
+        
+
+        circle_marker_3a6d1afaf4274fd9bf1d13725f97ef50.bindPopup(popup_c56c6b444eb64e428867cfd9bd8b278c)
+        ;
+
+        
+    
+    
+            var circle_marker_d650d1d01e7d4e64a8ec29be118b8799 = L.circleMarker(
+                [-36.77424514925373, 144.29494186567166],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.68, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_2ed8a977bc264b5bb12d6128bd953934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_493a56b8abea4f8bbfac85708cd19be6 = $(`<div id="html_493a56b8abea4f8bbfac85708cd19be6" style="width: 100.0%; height: 100.0%;">City:Bendigo<br>Total Number of Crashes:134</div>`)[0];
+            popup_2ed8a977bc264b5bb12d6128bd953934.setContent(html_493a56b8abea4f8bbfac85708cd19be6);
+        
+
+        circle_marker_d650d1d01e7d4e64a8ec29be118b8799.bindPopup(popup_2ed8a977bc264b5bb12d6128bd953934)
+        ;
+
+        
+    
+    
+            var circle_marker_dd4adac98b594fae9fde39d2a131735c = L.circleMarker(
+                [-37.82148956790124, 145.05724666666669],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.24, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_42dac7c6d45f4c54b766c2ffe2ce6c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bb490ea7c1142759534ee6748929779 = $(`<div id="html_5bb490ea7c1142759534ee6748929779" style="width: 100.0%; height: 100.0%;">City:Boroondara<br>Total Number of Crashes:162</div>`)[0];
+            popup_42dac7c6d45f4c54b766c2ffe2ce6c58.setContent(html_5bb490ea7c1142759534ee6748929779);
+        
+
+        circle_marker_dd4adac98b594fae9fde39d2a131735c.bindPopup(popup_42dac7c6d45f4c54b766c2ffe2ce6c58)
+        ;
+
+        
+    
+    
+            var circle_marker_27de2ed944e748088cfc072558805315 = L.circleMarker(
+                [-37.75282678714862, 144.8096377108434],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.98, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_39851e88a3614747beba7307e53d0603 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d61ada84fd4f0b84f2029d78b27206 = $(`<div id="html_b4d61ada84fd4f0b84f2029d78b27206" style="width: 100.0%; height: 100.0%;">City:Brimbank<br>Total Number of Crashes:249</div>`)[0];
+            popup_39851e88a3614747beba7307e53d0603.setContent(html_b4d61ada84fd4f0b84f2029d78b27206);
+        
+
+        circle_marker_27de2ed944e748088cfc072558805315.bindPopup(popup_39851e88a3614747beba7307e53d0603)
+        ;
+
+        
+    
+    
+            var circle_marker_1285c91f64fe40d7b3aef0eb22cec9c8 = L.circleMarker(
+                [-35.846893333333334, 143.04960916666667],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_391cee8440fa4aefb5d6cdd6692ec9db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8727787c4fc46f7b564a12289320bc1 = $(`<div id="html_b8727787c4fc46f7b564a12289320bc1" style="width: 100.0%; height: 100.0%;">City:Buloke<br>Total Number of Crashes:12</div>`)[0];
+            popup_391cee8440fa4aefb5d6cdd6692ec9db.setContent(html_b8727787c4fc46f7b564a12289320bc1);
+        
+
+        circle_marker_1285c91f64fe40d7b3aef0eb22cec9c8.bindPopup(popup_391cee8440fa4aefb5d6cdd6692ec9db)
+        ;
+
+        
+    
+    
+            var circle_marker_791e0e2bcd934d5e93a740fe5d8946c0 = L.circleMarker(
+                [-36.23231065217391, 144.7983997826087],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.92, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_b90a85e7a7d54c74bf581a18344eb21c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_499b35e977ed47bebd2925bfe7959f4a = $(`<div id="html_499b35e977ed47bebd2925bfe7959f4a" style="width: 100.0%; height: 100.0%;">City:Campaspe<br>Total Number of Crashes:46</div>`)[0];
+            popup_b90a85e7a7d54c74bf581a18344eb21c.setContent(html_499b35e977ed47bebd2925bfe7959f4a);
+        
+
+        circle_marker_791e0e2bcd934d5e93a740fe5d8946c0.bindPopup(popup_b90a85e7a7d54c74bf581a18344eb21c)
+        ;
+
+        
+    
+    
+            var circle_marker_93a6707d0e9c4c3f9cbddc6d21421e78 = L.circleMarker(
+                [-38.06138488095238, 145.52806107142865],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.68, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_5a6ce3819a9447b398c77fb4336645b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d0d89c7d6b4923af383c8a2c3fe084 = $(`<div id="html_c3d0d89c7d6b4923af383c8a2c3fe084" style="width: 100.0%; height: 100.0%;">City:Cardinia<br>Total Number of Crashes:84</div>`)[0];
+            popup_5a6ce3819a9447b398c77fb4336645b6.setContent(html_c3d0d89c7d6b4923af383c8a2c3fe084);
+        
+
+        circle_marker_93a6707d0e9c4c3f9cbddc6d21421e78.bindPopup(popup_5a6ce3819a9447b398c77fb4336645b6)
+        ;
+
+        
+    
+    
+            var circle_marker_caec2cdd60a24e41b53acb0da2ae67ca = L.circleMarker(
+                [-38.04141738775512, 145.28634065306122],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_8af6e1c02ef644a3959ffe13ccd8a835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3661cf80412430e8fd076f618cb9606 = $(`<div id="html_f3661cf80412430e8fd076f618cb9606" style="width: 100.0%; height: 100.0%;">City:Casey<br>Total Number of Crashes:245</div>`)[0];
+            popup_8af6e1c02ef644a3959ffe13ccd8a835.setContent(html_f3661cf80412430e8fd076f618cb9606);
+        
+
+        circle_marker_caec2cdd60a24e41b53acb0da2ae67ca.bindPopup(popup_8af6e1c02ef644a3959ffe13ccd8a835)
+        ;
+
+        
+    
+    
+            var circle_marker_ba1ba5354f9d4897a5e315b67e747530 = L.circleMarker(
+                [-37.00300866666667, 143.72159666666667],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_b3a564067b5a4a9abc7ffac91cc2e4df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_253e6e83534440ee82456ee67b490308 = $(`<div id="html_253e6e83534440ee82456ee67b490308" style="width: 100.0%; height: 100.0%;">City:Central goldfields<br>Total Number of Crashes:15</div>`)[0];
+            popup_b3a564067b5a4a9abc7ffac91cc2e4df.setContent(html_253e6e83534440ee82456ee67b490308);
+        
+
+        circle_marker_ba1ba5354f9d4897a5e315b67e747530.bindPopup(popup_b3a564067b5a4a9abc7ffac91cc2e4df)
+        ;
+
+        
+    
+    
+            var circle_marker_32e14481adc7481aacc78b381b99bb4b = L.circleMarker(
+                [-38.4864646511628, 143.62119930232555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.86, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_c7fa680bf7574caea5ed9ec87860a007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627cfde041b54f229a1b3dd358be049c = $(`<div id="html_627cfde041b54f229a1b3dd358be049c" style="width: 100.0%; height: 100.0%;">City:Colac otway<br>Total Number of Crashes:43</div>`)[0];
+            popup_c7fa680bf7574caea5ed9ec87860a007.setContent(html_627cfde041b54f229a1b3dd358be049c);
+        
+
+        circle_marker_32e14481adc7481aacc78b381b99bb4b.bindPopup(popup_c7fa680bf7574caea5ed9ec87860a007)
+        ;
+
+        
+    
+    
+            var circle_marker_ec766bd1ad014cc5a3096c54fcccf056 = L.circleMarker(
+                [-38.291206, 143.1003768],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ad19927df6434f2485633867819991a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a00d572ebdb4a3c8d18feed456f373a = $(`<div id="html_5a00d572ebdb4a3c8d18feed456f373a" style="width: 100.0%; height: 100.0%;">City:Corangamite<br>Total Number of Crashes:25</div>`)[0];
+            popup_ad19927df6434f2485633867819991a9.setContent(html_5a00d572ebdb4a3c8d18feed456f373a);
+        
+
+        circle_marker_ec766bd1ad014cc5a3096c54fcccf056.bindPopup(popup_ad19927df6434f2485633867819991a9)
+        ;
+
+        
+    
+    
+            var circle_marker_6b14a1da78e34da482c1b5f569c6c250 = L.circleMarker(
+                [-37.9823408888889, 145.19238675555562],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_6d6808082b434278b96c271314644ac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af6f543a46484da6ae3fc6753aa67627 = $(`<div id="html_af6f543a46484da6ae3fc6753aa67627" style="width: 100.0%; height: 100.0%;">City:Dandenong<br>Total Number of Crashes:225</div>`)[0];
+            popup_6d6808082b434278b96c271314644ac9.setContent(html_af6f543a46484da6ae3fc6753aa67627);
+        
+
+        circle_marker_6b14a1da78e34da482c1b5f569c6c250.bindPopup(popup_6d6808082b434278b96c271314644ac9)
+        ;
+
+        
+    
+    
+            var circle_marker_4a40c6185526402ea5dd39d1bbbe4119 = L.circleMarker(
+                [-37.74270832369941, 145.01056086705216],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.46, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_cd97cc6a0edf4744a63057a85bc703c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5dbe9edddef47ed99638e67dc39821a = $(`<div id="html_f5dbe9edddef47ed99638e67dc39821a" style="width: 100.0%; height: 100.0%;">City:Darebin<br>Total Number of Crashes:173</div>`)[0];
+            popup_cd97cc6a0edf4744a63057a85bc703c2.setContent(html_f5dbe9edddef47ed99638e67dc39821a);
+        
+
+        circle_marker_4a40c6185526402ea5dd39d1bbbe4119.bindPopup(popup_cd97cc6a0edf4744a63057a85bc703c2)
+        ;
+
+        
+    
+    
+            var circle_marker_cbdbf1c92c4645819e7661c441cffe2d = L.circleMarker(
+                [-37.65366677966101, 147.97082203389832],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.18, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_122e26311f1345e89ec60540d3aed2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f0beb88170540889ae8119e1e838721 = $(`<div id="html_7f0beb88170540889ae8119e1e838721" style="width: 100.0%; height: 100.0%;">City:East gippsland<br>Total Number of Crashes:59</div>`)[0];
+            popup_122e26311f1345e89ec60540d3aed2d5.setContent(html_7f0beb88170540889ae8119e1e838721);
+        
+
+        circle_marker_cbdbf1c92c4645819e7661c441cffe2d.bindPopup(popup_122e26311f1345e89ec60540d3aed2d5)
+        ;
+
+        
+    
+    
+            var circle_marker_aee4aa34547f4d7da3babd3d2f38ea20 = L.circleMarker(
+                [-38.130911551724154, 145.15361310344835],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.32, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_43f0b46449ac416c85db768ca557fa54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab8d28761f8f43d88882b49c8cd86a3c = $(`<div id="html_ab8d28761f8f43d88882b49c8cd86a3c" style="width: 100.0%; height: 100.0%;">City:Frankston<br>Total Number of Crashes:116</div>`)[0];
+            popup_43f0b46449ac416c85db768ca557fa54.setContent(html_ab8d28761f8f43d88882b49c8cd86a3c);
+        
+
+        circle_marker_aee4aa34547f4d7da3babd3d2f38ea20.bindPopup(popup_43f0b46449ac416c85db768ca557fa54)
+        ;
+
+        
+    
+    
+            var circle_marker_92a613e2549a4696b555970a3be5a111 = L.circleMarker(
+                [-35.738749090909096, 143.92815],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.22, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_9cabe87e5fb44b4f97cd33053e28e3b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22c1daef4d3742a3b79bf9a6df6de856 = $(`<div id="html_22c1daef4d3742a3b79bf9a6df6de856" style="width: 100.0%; height: 100.0%;">City:Gannawarra<br>Total Number of Crashes:11</div>`)[0];
+            popup_9cabe87e5fb44b4f97cd33053e28e3b8.setContent(html_22c1daef4d3742a3b79bf9a6df6de856);
+        
+
+        circle_marker_92a613e2549a4696b555970a3be5a111.bindPopup(popup_9cabe87e5fb44b4f97cd33053e28e3b8)
+        ;
+
+        
+    
+    
+            var circle_marker_b1392cb9c76b45d98ce12a7b063ebbc6 = L.circleMarker(
+                [-38.14386338645419, 144.3793674900399],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0200000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_efe03e0a116d45f4ac1853b4541c2799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2115b4bae3df4d579cb241138ee2bdf6 = $(`<div id="html_2115b4bae3df4d579cb241138ee2bdf6" style="width: 100.0%; height: 100.0%;">City:Geelong<br>Total Number of Crashes:251</div>`)[0];
+            popup_efe03e0a116d45f4ac1853b4541c2799.setContent(html_2115b4bae3df4d579cb241138ee2bdf6);
+        
+
+        circle_marker_b1392cb9c76b45d98ce12a7b063ebbc6.bindPopup(popup_efe03e0a116d45f4ac1853b4541c2799)
+        ;
+
+        
+    
+    
+            var circle_marker_a6f26844739344869e7f43c860a867e4 = L.circleMarker(
+                [-37.89763036231884, 145.03715442028985],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7600000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_bffcaa3db28448b6beed21b0e84cfe2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08daffcae98643888e22e3fc86b2d7c4 = $(`<div id="html_08daffcae98643888e22e3fc86b2d7c4" style="width: 100.0%; height: 100.0%;">City:Glen eira<br>Total Number of Crashes:138</div>`)[0];
+            popup_bffcaa3db28448b6beed21b0e84cfe2b.setContent(html_08daffcae98643888e22e3fc86b2d7c4);
+        
+
+        circle_marker_a6f26844739344869e7f43c860a867e4.bindPopup(popup_bffcaa3db28448b6beed21b0e84cfe2b)
+        ;
+
+        
+    
+    
+            var circle_marker_34a517ab5f084aa4853a84b3762887ac = L.circleMarker(
+                [-38.1196225, 141.565],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.48, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_9f47e8139d5f44db91f98187e5a77ad1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bcc903613144053bdd43d079197e340 = $(`<div id="html_0bcc903613144053bdd43d079197e340" style="width: 100.0%; height: 100.0%;">City:Glenelg<br>Total Number of Crashes:24</div>`)[0];
+            popup_9f47e8139d5f44db91f98187e5a77ad1.setContent(html_0bcc903613144053bdd43d079197e340);
+        
+
+        circle_marker_34a517ab5f084aa4853a84b3762887ac.bindPopup(popup_9f47e8139d5f44db91f98187e5a77ad1)
+        ;
+
+        
+    
+    
+            var circle_marker_f187402835e54d41838c7c2377a526ca = L.circleMarker(
+                [-37.85846933333333, 143.92207599999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_bd1dd4daf8f147e9a29ea9a0c2608a6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff1d6c109d742a589dd0940b7391333 = $(`<div id="html_4ff1d6c109d742a589dd0940b7391333" style="width: 100.0%; height: 100.0%;">City:Golden plains<br>Total Number of Crashes:30</div>`)[0];
+            popup_bd1dd4daf8f147e9a29ea9a0c2608a6c.setContent(html_4ff1d6c109d742a589dd0940b7391333);
+        
+
+        circle_marker_f187402835e54d41838c7c2377a526ca.bindPopup(popup_bd1dd4daf8f147e9a29ea9a0c2608a6c)
+        ;
+
+        
+    
+    
+            var circle_marker_c03f3b5c9a174487860d5be17019a419 = L.circleMarker(
+                [-37.33301684210526, 144.1433321052631],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.38, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_aef3ab2c93f24be1bd3b7bb773ca1fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa0dc40633784bb4a22f19152157f3bd = $(`<div id="html_aa0dc40633784bb4a22f19152157f3bd" style="width: 100.0%; height: 100.0%;">City:Hepburn<br>Total Number of Crashes:19</div>`)[0];
+            popup_aef3ab2c93f24be1bd3b7bb773ca1fc6.setContent(html_aa0dc40633784bb4a22f19152157f3bd);
+        
+
+        circle_marker_c03f3b5c9a174487860d5be17019a419.bindPopup(popup_aef3ab2c93f24be1bd3b7bb773ca1fc6)
+        ;
+
+        
+    
+    
+            var circle_marker_934243dbb365478593281d69d6f5ae97 = L.circleMarker(
+                [-36.28178166666667, 141.92893333333333],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_45dca23eaadb443ea3166964b183a9a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12c9e897c0f1439aaee47bdf00d87368 = $(`<div id="html_12c9e897c0f1439aaee47bdf00d87368" style="width: 100.0%; height: 100.0%;">City:Hindmarsh<br>Total Number of Crashes:6</div>`)[0];
+            popup_45dca23eaadb443ea3166964b183a9a3.setContent(html_12c9e897c0f1439aaee47bdf00d87368);
+        
+
+        circle_marker_934243dbb365478593281d69d6f5ae97.bindPopup(popup_45dca23eaadb443ea3166964b183a9a3)
+        ;
+
+        
+    
+    
+            var circle_marker_2177e23533bc426cb29d519e7aa87c66 = L.circleMarker(
+                [-37.84514489361703, 144.84135372340427],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8800000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_f600c52f528140639b12142721da3e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b9a4d538e22497cb05bf3c1ece239d7 = $(`<div id="html_3b9a4d538e22497cb05bf3c1ece239d7" style="width: 100.0%; height: 100.0%;">City:Hobsons bay<br>Total Number of Crashes:94</div>`)[0];
+            popup_f600c52f528140639b12142721da3e22.setContent(html_3b9a4d538e22497cb05bf3c1ece239d7);
+        
+
+        circle_marker_2177e23533bc426cb29d519e7aa87c66.bindPopup(popup_f600c52f528140639b12142721da3e22)
+        ;
+
+        
+    
+    
+            var circle_marker_2d02e26ba5c54c5791505d661dbf52a6 = L.circleMarker(
+                [-36.740743461538464, 142.2106976923077],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.52, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_bf5738026a48459fa92afda475bb2c0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f17f1c2c781b4b16a80c96f97e314fac = $(`<div id="html_f17f1c2c781b4b16a80c96f97e314fac" style="width: 100.0%; height: 100.0%;">City:Horsham<br>Total Number of Crashes:26</div>`)[0];
+            popup_bf5738026a48459fa92afda475bb2c0e.setContent(html_f17f1c2c781b4b16a80c96f97e314fac);
+        
+
+        circle_marker_2d02e26ba5c54c5791505d661dbf52a6.bindPopup(popup_bf5738026a48459fa92afda475bb2c0e)
+        ;
+
+        
+    
+    
+            var circle_marker_a04977a4c2494f1c918f7313e9e551e7 = L.circleMarker(
+                [-37.6470384236453, 144.89750517241367],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0600000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_d78f68f640e841609853dc82218490f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_970c55fa506940a5a42b439f63f04197 = $(`<div id="html_970c55fa506940a5a42b439f63f04197" style="width: 100.0%; height: 100.0%;">City:Hume<br>Total Number of Crashes:203</div>`)[0];
+            popup_d78f68f640e841609853dc82218490f5.setContent(html_970c55fa506940a5a42b439f63f04197);
+        
+
+        circle_marker_a04977a4c2494f1c918f7313e9e551e7.bindPopup(popup_d78f68f640e841609853dc82218490f5)
+        ;
+
+        
+    
+    
+            var circle_marker_c1b8f349181849548c1fcbd35ccc50c3 = L.circleMarker(
+                [-36.25947380952381, 146.77380047619044],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.42, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_7c24c9c792a84396af4d4771d89b25f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a334c4ce20cd4680801e9b8e4528f40b = $(`<div id="html_a334c4ce20cd4680801e9b8e4528f40b" style="width: 100.0%; height: 100.0%;">City:Indigo<br>Total Number of Crashes:21</div>`)[0];
+            popup_7c24c9c792a84396af4d4771d89b25f8.setContent(html_a334c4ce20cd4680801e9b8e4528f40b);
+        
+
+        circle_marker_c1b8f349181849548c1fcbd35ccc50c3.bindPopup(popup_7c24c9c792a84396af4d4771d89b25f8)
+        ;
+
+        
+    
+    
+            var circle_marker_287c6eebe1e24f498324e5872ceedc7f = L.circleMarker(
+                [-37.979663862433874, 145.0893262962963],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ed607149c86c474db6b7594bbc1f176d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd3cf811730a4d90b217850fa0ec8d4b = $(`<div id="html_fd3cf811730a4d90b217850fa0ec8d4b" style="width: 100.0%; height: 100.0%;">City:Kingston<br>Total Number of Crashes:189</div>`)[0];
+            popup_ed607149c86c474db6b7594bbc1f176d.setContent(html_fd3cf811730a4d90b217850fa0ec8d4b);
+        
+
+        circle_marker_287c6eebe1e24f498324e5872ceedc7f.bindPopup(popup_ed607149c86c474db6b7594bbc1f176d)
+        ;
+
+        
+    
+    
+            var circle_marker_d6f0a67306ba49cca7854756dbfb0c68 = L.circleMarker(
+                [-37.88241014084507, 145.2562673943662],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.84, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_882c9d8c9a514d949445ec06ce806f86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c2cdc9e3ef4bc794e39855266d302b = $(`<div id="html_29c2cdc9e3ef4bc794e39855266d302b" style="width: 100.0%; height: 100.0%;">City:Knox<br>Total Number of Crashes:142</div>`)[0];
+            popup_882c9d8c9a514d949445ec06ce806f86.setContent(html_29c2cdc9e3ef4bc794e39855266d302b);
+        
+
+        circle_marker_d6f0a67306ba49cca7854756dbfb0c68.bindPopup(popup_882c9d8c9a514d949445ec06ce806f86)
+        ;
+
+        
+    
+    
+            var circle_marker_6820036f6f894835b7821848b51e7e70 = L.circleMarker(
+                [-38.218235217391296, 146.40660271739137],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.84, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_a28d829200764fa3a8aacfe3c53dadb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1c275b42ac24d20a14ece82ae2ed6fe = $(`<div id="html_f1c275b42ac24d20a14ece82ae2ed6fe" style="width: 100.0%; height: 100.0%;">City:Latrobe<br>Total Number of Crashes:92</div>`)[0];
+            popup_a28d829200764fa3a8aacfe3c53dadb2.setContent(html_f1c275b42ac24d20a14ece82ae2ed6fe);
+        
+
+        circle_marker_6820036f6f894835b7821848b51e7e70.bindPopup(popup_a28d829200764fa3a8aacfe3c53dadb2)
+        ;
+
+        
+    
+    
+            var circle_marker_157ff99d99b145038f5a448cd5aa9c47 = L.circleMarker(
+                [-36.39845375000001, 143.89851750000003],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.32, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_1f4685ccaf244031a6b0fde48fd57e18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_942b237ff46c4ffa9d67e69f31dc3da8 = $(`<div id="html_942b237ff46c4ffa9d67e69f31dc3da8" style="width: 100.0%; height: 100.0%;">City:Loddon<br>Total Number of Crashes:16</div>`)[0];
+            popup_1f4685ccaf244031a6b0fde48fd57e18.setContent(html_942b237ff46c4ffa9d67e69f31dc3da8);
+        
+
+        circle_marker_157ff99d99b145038f5a448cd5aa9c47.bindPopup(popup_1f4685ccaf244031a6b0fde48fd57e18)
+        ;
+
+        
+    
+    
+            var circle_marker_0d7d16db1cbb45fbb08fd6810c45be08 = L.circleMarker(
+                [-37.360853333333324, 144.57266124999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.96, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_399c80c3f29240bda46c8c2acf7881e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afa244cc670c4352804a1737c2f37011 = $(`<div id="html_afa244cc670c4352804a1737c2f37011" style="width: 100.0%; height: 100.0%;">City:Macedon ranges<br>Total Number of Crashes:48</div>`)[0];
+            popup_399c80c3f29240bda46c8c2acf7881e6.setContent(html_afa244cc670c4352804a1737c2f37011);
+        
+
+        circle_marker_0d7d16db1cbb45fbb08fd6810c45be08.bindPopup(popup_399c80c3f29240bda46c8c2acf7881e6)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4450d9de324a8e9c763e32ce4f68df = L.circleMarker(
+                [-37.77470352941176, 145.14835617647063],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.36, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_a91f37eb5120444694287ea97fffae88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c119059f6b7f4de0b50e41719cf9d6fc = $(`<div id="html_c119059f6b7f4de0b50e41719cf9d6fc" style="width: 100.0%; height: 100.0%;">City:Manningham<br>Total Number of Crashes:68</div>`)[0];
+            popup_a91f37eb5120444694287ea97fffae88.setContent(html_c119059f6b7f4de0b50e41719cf9d6fc);
+        
+
+        circle_marker_4f4450d9de324a8e9c763e32ce4f68df.bindPopup(popup_a91f37eb5120444694287ea97fffae88)
+        ;
+
+        
+    
+    
+            var circle_marker_020e907f9006475a9641c5d4e94e25b2 = L.circleMarker(
+                [-37.11590547619047, 146.1378219047619],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.84, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ab93f6394a8e4bbabdf2faa34a2dc6d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b054c616b8e64811a51faa8ab0373487 = $(`<div id="html_b054c616b8e64811a51faa8ab0373487" style="width: 100.0%; height: 100.0%;">City:Mansfield<br>Total Number of Crashes:42</div>`)[0];
+            popup_ab93f6394a8e4bbabdf2faa34a2dc6d3.setContent(html_b054c616b8e64811a51faa8ab0373487);
+        
+
+        circle_marker_020e907f9006475a9641c5d4e94e25b2.bindPopup(popup_ab93f6394a8e4bbabdf2faa34a2dc6d3)
+        ;
+
+        
+    
+    
+            var circle_marker_b5dd879fa5d64d7787ba781968e68865 = L.circleMarker(
+                [-37.79743186440676, 144.88359889830508],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.36, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_e53482c3383c430ba51cb7f432fcfb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a216f1e240da4a52b5b530166620a440 = $(`<div id="html_a216f1e240da4a52b5b530166620a440" style="width: 100.0%; height: 100.0%;">City:Maribyrnong<br>Total Number of Crashes:118</div>`)[0];
+            popup_e53482c3383c430ba51cb7f432fcfb09.setContent(html_a216f1e240da4a52b5b530166620a440);
+        
+
+        circle_marker_b5dd879fa5d64d7787ba781968e68865.bindPopup(popup_e53482c3383c430ba51cb7f432fcfb09)
+        ;
+
+        
+    
+    
+            var circle_marker_496c5af79d264e07bdbeb8af27602848 = L.circleMarker(
+                [-37.810966036036056, 145.26133288288287],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.22, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ac558909753a495ca9cbe0f3748c6967 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf7efd943f234536a96c133d78555af5 = $(`<div id="html_bf7efd943f234536a96c133d78555af5" style="width: 100.0%; height: 100.0%;">City:Maroondah<br>Total Number of Crashes:111</div>`)[0];
+            popup_ac558909753a495ca9cbe0f3748c6967.setContent(html_bf7efd943f234536a96c133d78555af5);
+        
+
+        circle_marker_496c5af79d264e07bdbeb8af27602848.bindPopup(popup_ac558909753a495ca9cbe0f3748c6967)
+        ;
+
+        
+    
+    
+            var circle_marker_c1d3f158804b41a2bbdcbc77764e363d = L.circleMarker(
+                [-37.812111403508766, 144.95868140350885],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.98, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_66567429ec1e4246ac337d37d80f4149 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d7845848684ff2b99d67e0b3f75b6b = $(`<div id="html_94d7845848684ff2b99d67e0b3f75b6b" style="width: 100.0%; height: 100.0%;">City:Melbourne<br>Total Number of Crashes:399</div>`)[0];
+            popup_66567429ec1e4246ac337d37d80f4149.setContent(html_94d7845848684ff2b99d67e0b3f75b6b);
+        
+
+        circle_marker_c1d3f158804b41a2bbdcbc77764e363d.bindPopup(popup_66567429ec1e4246ac337d37d80f4149)
+        ;
+
+        
+    
+    
+            var circle_marker_be4184d4551a4640943802a30ce424af = L.circleMarker(
+                [-37.702495555555544, 144.64792666666673],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.16, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_e708f2fa96894126bdc67aeb2f215cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_952b3d8738eb458da2a532a68b2f16cb = $(`<div id="html_952b3d8738eb458da2a532a68b2f16cb" style="width: 100.0%; height: 100.0%;">City:Melton<br>Total Number of Crashes:108</div>`)[0];
+            popup_e708f2fa96894126bdc67aeb2f215cc5.setContent(html_952b3d8738eb458da2a532a68b2f16cb);
+        
+
+        circle_marker_be4184d4551a4640943802a30ce424af.bindPopup(popup_e708f2fa96894126bdc67aeb2f215cc5)
+        ;
+
+        
+    
+    
+            var circle_marker_ac38c6da29324f1ba769d6947bebf223 = L.circleMarker(
+                [-34.37495206349206, 142.1090301587302],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.26, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_866c239a684d45d886b3ec491304c0f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f60ad45a91e448d7b1ed5cd48df9ca98 = $(`<div id="html_f60ad45a91e448d7b1ed5cd48df9ca98" style="width: 100.0%; height: 100.0%;">City:Mildura<br>Total Number of Crashes:63</div>`)[0];
+            popup_866c239a684d45d886b3ec491304c0f5.setContent(html_f60ad45a91e448d7b1ed5cd48df9ca98);
+        
+
+        circle_marker_ac38c6da29324f1ba769d6947bebf223.bindPopup(popup_866c239a684d45d886b3ec491304c0f5)
+        ;
+
+        
+    
+    
+            var circle_marker_56e5ec0c884f49aa959be42bc969b402 = L.circleMarker(
+                [-37.221403823529414, 145.03242764705885],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.36, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_9a4502c5c0d04141a25245d6a94889c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c40681148c84d41801d9cbe4ac01c19 = $(`<div id="html_1c40681148c84d41801d9cbe4ac01c19" style="width: 100.0%; height: 100.0%;">City:Mitchell<br>Total Number of Crashes:68</div>`)[0];
+            popup_9a4502c5c0d04141a25245d6a94889c7.setContent(html_1c40681148c84d41801d9cbe4ac01c19);
+        
+
+        circle_marker_56e5ec0c884f49aa959be42bc969b402.bindPopup(popup_9a4502c5c0d04141a25245d6a94889c7)
+        ;
+
+        
+    
+    
+            var circle_marker_0e7b1d1aef4540bd9c227824c63cb976 = L.circleMarker(
+                [-36.02258948717949, 145.60903692307693],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.78, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_44f1149497a340c58799519f562d56e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e252eee8fa54bfc9ff447a9b2b78959 = $(`<div id="html_6e252eee8fa54bfc9ff447a9b2b78959" style="width: 100.0%; height: 100.0%;">City:Moira<br>Total Number of Crashes:39</div>`)[0];
+            popup_44f1149497a340c58799519f562d56e8.setContent(html_6e252eee8fa54bfc9ff447a9b2b78959);
+        
+
+        circle_marker_0e7b1d1aef4540bd9c227824c63cb976.bindPopup(popup_44f1149497a340c58799519f562d56e8)
+        ;
+
+        
+    
+    
+            var circle_marker_0918c2af41974f1db2e17e22873121b9 = L.circleMarker(
+                [-37.901343165137604, 145.13683995412842],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.36, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ee7891c55690484db9bad77e781dbd20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb68540a0f0b4d1fac6e54268c0c83ce = $(`<div id="html_bb68540a0f0b4d1fac6e54268c0c83ce" style="width: 100.0%; height: 100.0%;">City:Monash<br>Total Number of Crashes:218</div>`)[0];
+            popup_ee7891c55690484db9bad77e781dbd20.setContent(html_bb68540a0f0b4d1fac6e54268c0c83ce);
+        
+
+        circle_marker_0918c2af41974f1db2e17e22873121b9.bindPopup(popup_ee7891c55690484db9bad77e781dbd20)
+        ;
+
+        
+    
+    
+            var circle_marker_7e262135f0b14e9fb39a4f125d18fe1c = L.circleMarker(
+                [-37.75308953488372, 144.90579162790704],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.58, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_0b39388362554b669c0981ebe5cb91e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb0647b27e4e40b09cbcc12233268eb8 = $(`<div id="html_fb0647b27e4e40b09cbcc12233268eb8" style="width: 100.0%; height: 100.0%;">City:Moonee valley<br>Total Number of Crashes:129</div>`)[0];
+            popup_0b39388362554b669c0981ebe5cb91e2.setContent(html_fb0647b27e4e40b09cbcc12233268eb8);
+        
+
+        circle_marker_7e262135f0b14e9fb39a4f125d18fe1c.bindPopup(popup_0b39388362554b669c0981ebe5cb91e2)
+        ;
+
+        
+    
+    
+            var circle_marker_2062484cb0914c5eaf50d7bff2a7ee28 = L.circleMarker(
+                [-37.6096725, 144.26835458333332],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.96, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_144f84f909314b889bb2a50a08ed86b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_443adbe5677e40b99df4736751bcbf74 = $(`<div id="html_443adbe5677e40b99df4736751bcbf74" style="width: 100.0%; height: 100.0%;">City:Moorabool<br>Total Number of Crashes:48</div>`)[0];
+            popup_144f84f909314b889bb2a50a08ed86b3.setContent(html_443adbe5677e40b99df4736751bcbf74);
+        
+
+        circle_marker_2062484cb0914c5eaf50d7bff2a7ee28.bindPopup(popup_144f84f909314b889bb2a50a08ed86b3)
+        ;
+
+        
+    
+    
+            var circle_marker_c07625b1da104d008e694c1f634181bd = L.circleMarker(
+                [-37.74545902061857, 144.95424979381443],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.88, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_bac27745371a4f43bdc39a3b6913fd4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_886407f51e1b471691c1872c0639d7e1 = $(`<div id="html_886407f51e1b471691c1872c0639d7e1" style="width: 100.0%; height: 100.0%;">City:Moreland<br>Total Number of Crashes:194</div>`)[0];
+            popup_bac27745371a4f43bdc39a3b6913fd4f.setContent(html_886407f51e1b471691c1872c0639d7e1);
+        
+
+        circle_marker_c07625b1da104d008e694c1f634181bd.bindPopup(popup_bac27745371a4f43bdc39a3b6913fd4f)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f88ad15d374fb39a29135044c41cf0 = L.circleMarker(
+                [-38.297657482993216, 145.02955707483005],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.94, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_03da942c8159493eba7b5292c3029375 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c9a087684294e6f93938dc2aed42c0d = $(`<div id="html_5c9a087684294e6f93938dc2aed42c0d" style="width: 100.0%; height: 100.0%;">City:Mornington peninsula<br>Total Number of Crashes:147</div>`)[0];
+            popup_03da942c8159493eba7b5292c3029375.setContent(html_5c9a087684294e6f93938dc2aed42c0d);
+        
+
+        circle_marker_d2f88ad15d374fb39a29135044c41cf0.bindPopup(popup_03da942c8159493eba7b5292c3029375)
+        ;
+
+        
+    
+    
+            var circle_marker_274854f6e0744b53bb05861828fbf701 = L.circleMarker(
+                [-37.0595652631579, 144.22306684210528],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.38, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_515a42e5bc7a497bb99bd707f4ad97e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_438e97df5161459680edefe256b0d7cd = $(`<div id="html_438e97df5161459680edefe256b0d7cd" style="width: 100.0%; height: 100.0%;">City:Mount alexander<br>Total Number of Crashes:19</div>`)[0];
+            popup_515a42e5bc7a497bb99bd707f4ad97e4.setContent(html_438e97df5161459680edefe256b0d7cd);
+        
+
+        circle_marker_274854f6e0744b53bb05861828fbf701.bindPopup(popup_515a42e5bc7a497bb99bd707f4ad97e4)
+        ;
+
+        
+    
+    
+            var circle_marker_52635f7bdd914ecf90e1aa268629d527 = L.circleMarker(
+                [-38.29325333333333, 142.44607555555555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.54, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_5715fade11844440aaa866bb9432867e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30c7cbebb3824c5d92177e66da32498e = $(`<div id="html_30c7cbebb3824c5d92177e66da32498e" style="width: 100.0%; height: 100.0%;">City:Moyne<br>Total Number of Crashes:27</div>`)[0];
+            popup_5715fade11844440aaa866bb9432867e.setContent(html_30c7cbebb3824c5d92177e66da32498e);
+        
+
+        circle_marker_52635f7bdd914ecf90e1aa268629d527.bindPopup(popup_5715fade11844440aaa866bb9432867e)
+        ;
+
+        
+    
+    
+            var circle_marker_a33bda9eab43447abf8626673485b812 = L.circleMarker(
+                [-37.36402963636363, 145.5534783636364],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_e0248e4da3cb4e04ac82e7fd13a35ce9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c93f69b6eb6d4825b1b41fbc6037a6de = $(`<div id="html_c93f69b6eb6d4825b1b41fbc6037a6de" style="width: 100.0%; height: 100.0%;">City:Murrindindi<br>Total Number of Crashes:55</div>`)[0];
+            popup_e0248e4da3cb4e04ac82e7fd13a35ce9.setContent(html_c93f69b6eb6d4825b1b41fbc6037a6de);
+        
+
+        circle_marker_a33bda9eab43447abf8626673485b812.bindPopup(popup_e0248e4da3cb4e04ac82e7fd13a35ce9)
+        ;
+
+        
+    
+    
+            var circle_marker_73dd72931b0646448a7544e2c52d2f87 = L.circleMarker(
+                [-37.64352385964913, 145.19395508771927],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1400000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_1831c869552f4123bab63db6faef5ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1215c56e5ab43ed99f39f6167b6f891 = $(`<div id="html_b1215c56e5ab43ed99f39f6167b6f891" style="width: 100.0%; height: 100.0%;">City:Nillumbik<br>Total Number of Crashes:57</div>`)[0];
+            popup_1831c869552f4123bab63db6faef5ced.setContent(html_b1215c56e5ab43ed99f39f6167b6f891);
+        
+
+        circle_marker_73dd72931b0646448a7544e2c52d2f87.bindPopup(popup_1831c869552f4123bab63db6faef5ced)
+        ;
+
+        
+    
+    
+            var circle_marker_bf026a2c56f147f8b171f433f70677b1 = L.circleMarker(
+                [-36.992898749999995, 142.81622437500002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.32, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_c33c6b66dc7944ecbc9669908ab71303 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_488d309c1f96416b8e6372d7a081783a = $(`<div id="html_488d309c1f96416b8e6372d7a081783a" style="width: 100.0%; height: 100.0%;">City:Northern grampians<br>Total Number of Crashes:16</div>`)[0];
+            popup_c33c6b66dc7944ecbc9669908ab71303.setContent(html_488d309c1f96416b8e6372d7a081783a);
+        
+
+        circle_marker_bf026a2c56f147f8b171f433f70677b1.bindPopup(popup_c33c6b66dc7944ecbc9669908ab71303)
+        ;
+
+        
+    
+    
+            var circle_marker_427eafd80d8d4e53a7199e87232219fc = L.circleMarker(
+                [-37.852704832214776, 144.9718017449664],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.98, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_d72244401aee4dcfa4b2f35181e31895 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3eab08549b7435d8e8c24019703c9c1 = $(`<div id="html_b3eab08549b7435d8e8c24019703c9c1" style="width: 100.0%; height: 100.0%;">City:Port phillip<br>Total Number of Crashes:149</div>`)[0];
+            popup_d72244401aee4dcfa4b2f35181e31895.setContent(html_b3eab08549b7435d8e8c24019703c9c1);
+        
+
+        circle_marker_427eafd80d8d4e53a7199e87232219fc.bindPopup(popup_d72244401aee4dcfa4b2f35181e31895)
+        ;
+
+        
+    
+    
+            var circle_marker_1e6cb759b2b0434c9f6f0f6f31f72cea = L.circleMarker(
+                [-37.35648272727272, 143.4467718181818],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.44, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_179727ab4cd347e291d519064ab729a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8849a53636a34f97bc257059fc2116a9 = $(`<div id="html_8849a53636a34f97bc257059fc2116a9" style="width: 100.0%; height: 100.0%;">City:Pyrenees<br>Total Number of Crashes:22</div>`)[0];
+            popup_179727ab4cd347e291d519064ab729a5.setContent(html_8849a53636a34f97bc257059fc2116a9);
+        
+
+        circle_marker_1e6cb759b2b0434c9f6f0f6f31f72cea.bindPopup(popup_179727ab4cd347e291d519064ab729a5)
+        ;
+
+        
+    
+    
+            var circle_marker_0d8d4bae3fff48bb96727581fc89098a = L.circleMarker(
+                [-38.276575, 144.63812000000001],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_6f4e8b55a3724f03a0d4437add9d3bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8ec1647ea754eb98dd6580037a39261 = $(`<div id="html_e8ec1647ea754eb98dd6580037a39261" style="width: 100.0%; height: 100.0%;">City:Queenscliffe<br>Total Number of Crashes:2</div>`)[0];
+            popup_6f4e8b55a3724f03a0d4437add9d3bc3.setContent(html_e8ec1647ea754eb98dd6580037a39261);
+        
+
+        circle_marker_0d8d4bae3fff48bb96727581fc89098a.bindPopup(popup_6f4e8b55a3724f03a0d4437add9d3bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_a784b95043d349a48e732bd71a8e4536 = L.circleMarker(
+                [-36.39506630769231, 145.37235153846154],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_be5b649a5dd146879ac6d3c72be427ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee765e1427eb4b8496094e81caf36e75 = $(`<div id="html_ee765e1427eb4b8496094e81caf36e75" style="width: 100.0%; height: 100.0%;">City:Shepparton<br>Total Number of Crashes:65</div>`)[0];
+            popup_be5b649a5dd146879ac6d3c72be427ee.setContent(html_ee765e1427eb4b8496094e81caf36e75);
+        
+
+        circle_marker_a784b95043d349a48e732bd71a8e4536.bindPopup(popup_be5b649a5dd146879ac6d3c72be427ee)
+        ;
+
+        
+    
+    
+            var circle_marker_44301fcc90b24d12b2151f113b1f7bb7 = L.circleMarker(
+                [-38.5234044, 145.99708920000003],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_37363826d663408f9b4a40c023da6a56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79e64f32347d4eec9a474346bbc0027d = $(`<div id="html_79e64f32347d4eec9a474346bbc0027d" style="width: 100.0%; height: 100.0%;">City:South gippsland<br>Total Number of Crashes:50</div>`)[0];
+            popup_37363826d663408f9b4a40c023da6a56.setContent(html_79e64f32347d4eec9a474346bbc0027d);
+        
+
+        circle_marker_44301fcc90b24d12b2151f113b1f7bb7.bindPopup(popup_37363826d663408f9b4a40c023da6a56)
+        ;
+
+        
+    
+    
+            var circle_marker_6aff1514e01e4ed9b35a368edbe44918 = L.circleMarker(
+                [-37.647831333333336, 141.9709993333333],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_a451e7200bf84558946fa55bec92a381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84084b6e24cc485c9640914374cbd4e0 = $(`<div id="html_84084b6e24cc485c9640914374cbd4e0" style="width: 100.0%; height: 100.0%;">City:Southern grampians<br>Total Number of Crashes:15</div>`)[0];
+            popup_a451e7200bf84558946fa55bec92a381.setContent(html_84084b6e24cc485c9640914374cbd4e0);
+        
+
+        circle_marker_6aff1514e01e4ed9b35a368edbe44918.bindPopup(popup_a451e7200bf84558946fa55bec92a381)
+        ;
+
+        
+    
+    
+            var circle_marker_122e5ee8630e4a2fa488f9fb2fb8f080 = L.circleMarker(
+                [-37.85558081761008, 145.02330811320755],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.18, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_11e2f7e2a7dd41acb4d032c6a9ea6582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd73d2d70ee492382d63a4af6217a75 = $(`<div id="html_bcd73d2d70ee492382d63a4af6217a75" style="width: 100.0%; height: 100.0%;">City:Stonnington<br>Total Number of Crashes:159</div>`)[0];
+            popup_11e2f7e2a7dd41acb4d032c6a9ea6582.setContent(html_bcd73d2d70ee492382d63a4af6217a75);
+        
+
+        circle_marker_122e5ee8630e4a2fa488f9fb2fb8f080.bindPopup(popup_11e2f7e2a7dd41acb4d032c6a9ea6582)
+        ;
+
+        
+    
+    
+            var circle_marker_6661b4d9053445969958bc9e26120721 = L.circleMarker(
+                [-36.81123448275861, 145.3967206896552],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.58, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_252b5fd9b59e4aceb6cffa29eea9003d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d76d644603b64b4baf24dd75c62584dc = $(`<div id="html_d76d644603b64b4baf24dd75c62584dc" style="width: 100.0%; height: 100.0%;">City:Strathbogie<br>Total Number of Crashes:29</div>`)[0];
+            popup_252b5fd9b59e4aceb6cffa29eea9003d.setContent(html_d76d644603b64b4baf24dd75c62584dc);
+        
+
+        circle_marker_6661b4d9053445969958bc9e26120721.bindPopup(popup_252b5fd9b59e4aceb6cffa29eea9003d)
+        ;
+
+        
+    
+    
+            var circle_marker_6d7ed153aa624abda2b89d58f77df7b0 = L.circleMarker(
+                [-38.33888085714286, 144.1784045714286],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7000000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_8a139c9c9ff148cb8b5615c5c696df6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b36d58b52c094093a1b3144906cc1d91 = $(`<div id="html_b36d58b52c094093a1b3144906cc1d91" style="width: 100.0%; height: 100.0%;">City:Surf coast<br>Total Number of Crashes:35</div>`)[0];
+            popup_8a139c9c9ff148cb8b5615c5c696df6d.setContent(html_b36d58b52c094093a1b3144906cc1d91);
+        
+
+        circle_marker_6d7ed153aa624abda2b89d58f77df7b0.bindPopup(popup_8a139c9c9ff148cb8b5615c5c696df6d)
+        ;
+
+        
+    
+    
+            var circle_marker_7c4e31796a8c45be9f6c59bdb0565669 = L.circleMarker(
+                [-35.185413499999996, 143.37505299999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_f29671850d16495cb6e0eb43295d044a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cd007cf16cb4905b4f8860804dd70ef = $(`<div id="html_0cd007cf16cb4905b4f8860804dd70ef" style="width: 100.0%; height: 100.0%;">City:Swan hill<br>Total Number of Crashes:20</div>`)[0];
+            popup_f29671850d16495cb6e0eb43295d044a.setContent(html_0cd007cf16cb4905b4f8860804dd70ef);
+        
+
+        circle_marker_7c4e31796a8c45be9f6c59bdb0565669.bindPopup(popup_f29671850d16495cb6e0eb43295d044a)
+        ;
+
+        
+    
+    
+            var circle_marker_37b7c1fbfe924af582767da256004b9e = L.circleMarker(
+                [-36.283519166666665, 147.40320666666668],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_7074b1daace146a286dfb104c69bfde8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21edd2db64b84dbbb03ab065b46ae369 = $(`<div id="html_21edd2db64b84dbbb03ab065b46ae369" style="width: 100.0%; height: 100.0%;">City:Towong<br>Total Number of Crashes:12</div>`)[0];
+            popup_7074b1daace146a286dfb104c69bfde8.setContent(html_21edd2db64b84dbbb03ab065b46ae369);
+        
+
+        circle_marker_37b7c1fbfe924af582767da256004b9e.bindPopup(popup_7074b1daace146a286dfb104c69bfde8)
+        ;
+
+        
+    
+    
+            var circle_marker_b3eae5dc9de943c98c0b4c9912af74f8 = L.circleMarker(
+                [-36.43677617647059, 146.34633470588236],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.68, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_b01bc5e831de4795be644a055dd54f6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10136a2edcce4a17a4ccc6f83cbd4b0c = $(`<div id="html_10136a2edcce4a17a4ccc6f83cbd4b0c" style="width: 100.0%; height: 100.0%;">City:Wangaratta<br>Total Number of Crashes:34</div>`)[0];
+            popup_b01bc5e831de4795be644a055dd54f6c.setContent(html_10136a2edcce4a17a4ccc6f83cbd4b0c);
+        
+
+        circle_marker_b3eae5dc9de943c98c0b4c9912af74f8.bindPopup(popup_b01bc5e831de4795be644a055dd54f6c)
+        ;
+
+        
+    
+    
+            var circle_marker_535875dde6364fa4843a7fd04ed9d85f = L.circleMarker(
+                [-38.37730100000001, 142.48688099999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_376e453c8c2a4224ac7ffaf91dc862a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e60d729596e42b1b6afad8e60f2fdf5 = $(`<div id="html_5e60d729596e42b1b6afad8e60f2fdf5" style="width: 100.0%; height: 100.0%;">City:Warrnambool<br>Total Number of Crashes:20</div>`)[0];
+            popup_376e453c8c2a4224ac7ffaf91dc862a2.setContent(html_5e60d729596e42b1b6afad8e60f2fdf5);
+        
+
+        circle_marker_535875dde6364fa4843a7fd04ed9d85f.bindPopup(popup_376e453c8c2a4224ac7ffaf91dc862a2)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1e417397d74c43a6bd64c0b945e93b = L.circleMarker(
+                [-38.01049083333334, 146.93484273809526],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.68, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_f670c34a799c4d199d8034ea1de33f05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c73bad0e991942ab918e2f384cbb2399 = $(`<div id="html_c73bad0e991942ab918e2f384cbb2399" style="width: 100.0%; height: 100.0%;">City:Wellington<br>Total Number of Crashes:84</div>`)[0];
+            popup_f670c34a799c4d199d8034ea1de33f05.setContent(html_c73bad0e991942ab918e2f384cbb2399);
+        
+
+        circle_marker_6e1e417397d74c43a6bd64c0b945e93b.bindPopup(popup_f670c34a799c4d199d8034ea1de33f05)
+        ;
+
+        
+    
+    
+            var circle_marker_29d1a6cc0e3f4c4d881322be10c5849a = L.circleMarker(
+                [-36.43164666666667, 141.25230833333333],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_ea96cae9f34c497d96e56c5c43c556ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c619e8b441374b05af859bf90601e3f1 = $(`<div id="html_c619e8b441374b05af859bf90601e3f1" style="width: 100.0%; height: 100.0%;">City:West wimmera<br>Total Number of Crashes:6</div>`)[0];
+            popup_ea96cae9f34c497d96e56c5c43c556ec.setContent(html_c619e8b441374b05af859bf90601e3f1);
+        
+
+        circle_marker_29d1a6cc0e3f4c4d881322be10c5849a.bindPopup(popup_ea96cae9f34c497d96e56c5c43c556ec)
+        ;
+
+        
+    
+    
+            var circle_marker_7a3bf43d201040348d5c87b0020ee443 = L.circleMarker(
+                [-37.828929618320615, 145.15255038167933],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.62, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_d75460ff577947fa85c28da9d86929b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67b57feb12cc44d699e04c6ca2e356de = $(`<div id="html_67b57feb12cc44d699e04c6ca2e356de" style="width: 100.0%; height: 100.0%;">City:Whitehorse<br>Total Number of Crashes:131</div>`)[0];
+            popup_d75460ff577947fa85c28da9d86929b1.setContent(html_67b57feb12cc44d699e04c6ca2e356de);
+        
+
+        circle_marker_7a3bf43d201040348d5c87b0020ee443.bindPopup(popup_d75460ff577947fa85c28da9d86929b1)
+        ;
+
+        
+    
+    
+            var circle_marker_98c8e4c961b84adab78d46c5fbf5fbae = L.circleMarker(
+                [-37.64680234636871, 145.04133441340787],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.58, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_5c7d511e3fbc411ab636b23a065ab0c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52190d49629e45779d091e00d283c937 = $(`<div id="html_52190d49629e45779d091e00d283c937" style="width: 100.0%; height: 100.0%;">City:Whittlesea<br>Total Number of Crashes:179</div>`)[0];
+            popup_5c7d511e3fbc411ab636b23a065ab0c6.setContent(html_52190d49629e45779d091e00d283c937);
+        
+
+        circle_marker_98c8e4c961b84adab78d46c5fbf5fbae.bindPopup(popup_5c7d511e3fbc411ab636b23a065ab0c6)
+        ;
+
+        
+    
+    
+            var circle_marker_7aae2eb397bc4689b5bd5265b01902ba = L.circleMarker(
+                [-36.12746689655172, 146.88410034482757],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.58, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_7a3dd22b48294d8bbdcd4a2bed6c8a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcaf54c131dc4d1eac94c5637a4fa568 = $(`<div id="html_dcaf54c131dc4d1eac94c5637a4fa568" style="width: 100.0%; height: 100.0%;">City:Wodonga<br>Total Number of Crashes:29</div>`)[0];
+            popup_7a3dd22b48294d8bbdcd4a2bed6c8a06.setContent(html_dcaf54c131dc4d1eac94c5637a4fa568);
+        
+
+        circle_marker_7aae2eb397bc4689b5bd5265b01902ba.bindPopup(popup_7a3dd22b48294d8bbdcd4a2bed6c8a06)
+        ;
+
+        
+    
+    
+            var circle_marker_923a1b25fe614743b0b892bcc7360058 = L.circleMarker(
+                [-37.86946319727889, 144.70781074829932],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.94, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_203c6e859cf14ec9a61d54e1f614d336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902e1dc269004469b8612ae1c6aa5e93 = $(`<div id="html_902e1dc269004469b8612ae1c6aa5e93" style="width: 100.0%; height: 100.0%;">City:Wyndham<br>Total Number of Crashes:147</div>`)[0];
+            popup_203c6e859cf14ec9a61d54e1f614d336.setContent(html_902e1dc269004469b8612ae1c6aa5e93);
+        
+
+        circle_marker_923a1b25fe614743b0b892bcc7360058.bindPopup(popup_203c6e859cf14ec9a61d54e1f614d336)
+        ;
+
+        
+    
+    
+            var circle_marker_f04810dc8bc745418d8326614167c3ef = L.circleMarker(
+                [-37.80462163636364, 144.99213175757572],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3000000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_dc1cca79c2f0491dbb8f9c5489fb3817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c6fa0b20eb46c2ac70ff91beb424de = $(`<div id="html_e1c6fa0b20eb46c2ac70ff91beb424de" style="width: 100.0%; height: 100.0%;">City:Yarra<br>Total Number of Crashes:165</div>`)[0];
+            popup_dc1cca79c2f0491dbb8f9c5489fb3817.setContent(html_e1c6fa0b20eb46c2ac70ff91beb424de);
+        
+
+        circle_marker_f04810dc8bc745418d8326614167c3ef.bindPopup(popup_dc1cca79c2f0491dbb8f9c5489fb3817)
+        ;
+
+        
+    
+    
+            var circle_marker_26e173154b9b41a8951b93727792d58f = L.circleMarker(
+                [-37.803240549450535, 145.41861329670326],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.64, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_1469cf49d6734b989f11d1d7014cf9ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c7ef8c2ba8145c686db882d4b25aa97 = $(`<div id="html_6c7ef8c2ba8145c686db882d4b25aa97" style="width: 100.0%; height: 100.0%;">City:Yarra ranges<br>Total Number of Crashes:182</div>`)[0];
+            popup_1469cf49d6734b989f11d1d7014cf9ac.setContent(html_6c7ef8c2ba8145c686db882d4b25aa97);
+        
+
+        circle_marker_26e173154b9b41a8951b93727792d58f.bindPopup(popup_1469cf49d6734b989f11d1d7014cf9ac)
+        ;
+
+        
+    
+    
+            var circle_marker_d80dc560c4ab420888afbc36656ba956 = L.circleMarker(
+                [-36.015015000000005, 142.44752],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_65e0502f7d184434902577963a65f117);
+        
+    
+        var popup_0cd44138021f44ec97efe35061ed5e4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_084a84e15cd841fe841cee68ecf786fb = $(`<div id="html_084a84e15cd841fe841cee68ecf786fb" style="width: 100.0%; height: 100.0%;">City:Yarriambiack<br>Total Number of Crashes:2</div>`)[0];
+            popup_0cd44138021f44ec97efe35061ed5e4d.setContent(html_084a84e15cd841fe841cee68ecf786fb);
+        
+
+        circle_marker_d80dc560c4ab420888afbc36656ba956.bindPopup(popup_0cd44138021f44ec97efe35061ed5e4d)
+        ;
+
+        
+    
+</script>
